@@ -22,3 +22,8 @@ blackfire_apache_enable: false
 
 # Restart php fpm after the activation of blackfire php extension
 blackfire_php_fpm_enable: true
+
+#PHP FPM server
+blackfire_php_fpm: php-fpm
+#webserver
+blackfire_web_server: apache
